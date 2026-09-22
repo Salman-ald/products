@@ -1,0 +1,47 @@
+.produktliste {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.produktliste ,p,h1,h2,h3{
+
+    padding: 10px;
+}
+
+
+
+article {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 6;
+    background-color: beige;
+    border: solid 1px;
+}
+
+img{
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+    .produktliste{
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    }
+  article h2,
+  article h3,
+  article p {
+    margin: 0;
+  }
+
+  article h3 {
+    line-height: 1.1;
+  }
+    article {
+    grid-template-rows: auto;
+    grid-row: auto;
+    gap: 0.5rem;
+  }
+
+
+}
