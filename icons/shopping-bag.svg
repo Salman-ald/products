@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Shopping bag</title>
+
+  <!-- Bag -->
+  <path
+    d="M93 145 H419 L450 493 H62 Z"
+    fill="none"
+    stroke="#000"
+    stroke-width="36"
+    stroke-linejoin="round"
+  />
+
+  <!-- Handle -->
+  <path
+    d="M177 197 V97
+       C177 53 212 19 256 19
+       C300 19 335 53 335 97
+       V197"
+    fill="none"
+    stroke="#000"
+    stroke-width="36"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
