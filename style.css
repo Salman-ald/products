@@ -42,6 +42,11 @@ info {
   padding-top: 10px;
 }
 
+.product-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 article {
   display: grid;
   grid-template-rows: subgrid;

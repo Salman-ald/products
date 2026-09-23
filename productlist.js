@@ -9,7 +9,8 @@ fetch(endpoint)
 function visData(json) {
   json.forEach((element) => {
     produktliste.innerHTML += `
-      <article class="card">
+    <a href="productdetails.html?id=${element.id}" class="product-link">  
+    <article class="card">
         <img src="https://kea-alt-del.dk/t7/images/webp/640/${element.id}.webp" alt="produktbillede">
         <info><h2>${element.brandname}</h2>
         <h3>${element.productdisplayname}</h3>
