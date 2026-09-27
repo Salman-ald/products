@@ -4,10 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="header.css">
     <title>Product details</title>
   </head>
 
   <body>
+    <header class="header">
+      <a href="index.html"><img class="logo" src="imgs/logo.png" alt="" /></a>
+
+      <div class="header-icons">
+        <a href="#" class="cart-icon">
+          <img src="icons/shopping-bag.svg" />
+        </a>
+
+        <button class="burger" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="menu">
+        <a href="index.html">HJEM</a>
+        <a href="#">PRODUKTER</a>
+        <a href="#">OM OS</a>
+      </nav>
+    </header>
     <main class="product-details"></main>
 
     <script src="productdetails.js"></script>
