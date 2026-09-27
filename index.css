@@ -1,0 +1,22 @@
+#catListeContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 10px;
+    width: 100%;
+margin: 10px;
+}
+
+#catListeContainer a {
+    display: flex;
+    padding: 10px 0px;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 10px;
+    gap: 10px;
+    color: inherit;
+    justify-content: center;
+    background: rgb(73, 73, 73);
+    outline: solid 1px black;
+    color: white
+}
